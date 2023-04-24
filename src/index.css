@@ -1,0 +1,25 @@
+.entryForm {
+   border: 2px solid lightgrey;
+   border-color: lightslategrey;
+   width:400px;
+}
+
+.formForm {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.buttonContainer{
+    display: inline-block
+}
+
+button.acceptBtn {
+    width: fit-content;    
+    
+}
+
+button.cancelBtn {
+    width: fit-content;
+    
+}
