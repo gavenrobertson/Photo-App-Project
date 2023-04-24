@@ -22,8 +22,6 @@ The dialog should have the following behaviors:
   * If the user hits the cancel button, then the dialog should close without further action.
   * Any time the dialog is closed (whether via the accept button or the cancel button), any values entered by the user in the text fields should be cleared.
 
-Here is a screen capture demonstrating some of these behaviors:
-
 ![Screen capture of photo submission dialog](screencaps/demo-dialog.gif)
 
 ## Photo list
@@ -36,14 +34,4 @@ The application’s right column should contain a list of all the photos submitt
 
 Finally, you should add a button to each photo component that the user can click to remove the corresponding photo.  Only the photo corresponding to the clicked button should be removed, and all other photos should remain, displayed in the same order.
 
-Here is a screen capture demonstrating how the photo removal functionality might work:
-
 ![Screen capture of photo removal](screencaps/demo-removal.gif)
-
-## Application styling
-
-To accomplish some of the layout required in the description above, you will need to write some CSS for the application.  The starter code is implemented so that CSS will be incorporated from [src/index.css](src/index.css), so it'll be easiest for you to write your CSS there.
-
-Please don’t worry too much about giving your application a polished appearance, and don’t worry about exactly matching the styling of the screen captures here.  All you need to do is meet the layout requirements described above.  The rest of your styling can be very rudimentary.
-
-One thing to note is that showing or hiding elements of the application (e.g. the dialog, the warning, the photos) *may not* be done using CSS.  In other words, you can’t use CSS properties like  `display: none;` or `visibility: hidden;` to hide things.  Instead, you must control the display of application elements by conditionally rendering them in your React components (e.g. based on some application state you keep).  This is the React way to do things.
